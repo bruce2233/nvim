@@ -14,4 +14,9 @@ return require('packer').startup(function(use)
   }
   use 'navarasu/onedark.nvim'
   use 'glepnir/dashboard-nvim'
+  use {
+    'akinsho/bufferline.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons' }
+  }   
+
 end)
