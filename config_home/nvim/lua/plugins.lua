@@ -18,5 +18,5 @@ return require('packer').startup(function(use)
     'akinsho/bufferline.nvim',
     requires = { 'kyazdani42/nvim-web-devicons' }
   }   
-
+  use 'williamboman/mason.nvim'
 end)
